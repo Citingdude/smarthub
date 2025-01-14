@@ -12,7 +12,7 @@ function setLocale(locale: Locale) {
 
 <template>
   <div class="relative">
-    <button @click="isOpen = !isOpen" class="flex items-center gap-2">
+    <button class="flex items-center gap-2" @click="isOpen = !isOpen">
       <span class="uppercase font-bold font-display">
         {{ activeLocale }}
       </span>
@@ -21,14 +21,14 @@ function setLocale(locale: Locale) {
     </button>
 
     <TransitionSlideIn>
-      <div class="absolute top-full left-0 bg-white w-full px-2 py-1" v-if="isOpen">
+      <div v-if="isOpen" class="absolute top-full left-0 bg-white w-full px-2 py-1">
         <ul>
-          <li v-if="activeLocale !== 'en'"  class="uppercase font-bold font-display">
+          <li v-if="activeLocale !== 'en'" class="uppercase font-bold font-display">
             <button @click="setLocale('en')">
               EN
             </button>
           </li>
-          <li v-if="activeLocale !== 'nl'"  class="uppercase font-bold font-display">
+          <li v-if="activeLocale !== 'nl'" class="uppercase font-bold font-display">
             <button @click="setLocale('nl')">
               NL
             </button>
@@ -36,6 +36,5 @@ function setLocale(locale: Locale) {
         </ul>
       </div>
     </TransitionSlideIn>
-
   </div>
 </template>
