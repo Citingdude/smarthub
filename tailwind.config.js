@@ -10,10 +10,12 @@ export default {
       black: '#000000',
       white: '#FFFFFF',
       light: '#F7F7F7',
+      dark: '#070808',
+      primary: '#D32318',
       gradient: {
         from: '#D32318',
         to: '#F92114',
-      }
+      },
     },
     fontFamily: {
       display: 'Decima',
