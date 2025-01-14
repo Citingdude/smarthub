@@ -9,7 +9,7 @@ export default {
     colors: {
       black: '#000000',
       white: '#FFFFFF',
-      light: 'F7F7F7',
+      light: '#F7F7F7',
       gradient: {
         from: '#D32318',
         to: '#F92114',
