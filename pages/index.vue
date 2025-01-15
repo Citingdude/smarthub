@@ -1,7 +1,7 @@
 <template>
-  <main>
+  <main class="bg-light">
     <!-- Hero -->
-    <section class="pt-[275px]">
+    <section class="py-[275px] relative overflow-hidden">
       <img class="w-full absolute inset-0" src="/images/hero.jpg" alt="">
       <div class="container relative">
         <div class="max-w-[600px] flex flex-col gap-[15px]">
@@ -9,9 +9,9 @@
             Vandaag innoveren voor morgen.
           </TextH1>
 
-          <p class="text-[28px] leading-[30px] text-white">
+          <TextBody class="text-[28px] leading-[30px] text-white">
             Smart Hub investeert in slimme projecten, verbindt partners en opent deuren in het buitenland.
-          </p>
+          </TextBody>
         </div>
 
         <AppButton
@@ -20,6 +20,13 @@
           to="/"
           color="primary"
         />
+      </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="relative">
+      <div class="container">
+        <AppBanner class="-translate-y-32" />
       </div>
     </section>
   </main>
