@@ -17,7 +17,7 @@ const props = defineProps<{
   <NuxtLink to="/" class="flex flex-col sm:flex-row">
     <img :src="props.image.src" :alt="props.image.alt">
 
-    <div class="bg-white pt-8 pl-8 pb-7 pr-7 flex flex-col gap-4">
+    <div class="bg-white pt-8 pl-8 pb-7 pr-7 flex flex-col gap-4 w-full">
       <div class="flex gap-3">
         <EventTag
           v-for="tag in props.tags"

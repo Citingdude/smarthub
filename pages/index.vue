@@ -147,7 +147,7 @@
           <AppLink to="/" label="Bekijk alle evenementen" />
         </div>
 
-        <div class="grid md:grid-cols-2 gap-6 mt-11">
+        <div class="grid xl:grid-cols-2 gap-6 mt-11">
           <EventCard
             :image="{
               src: '/images/event/event_2.jpg',
@@ -186,6 +186,30 @@
               },
             ]"
           />
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="bg-white py-32 overflow-hidden">
+      <div class="container">
+        <TextSubtitle>
+          Nieuws
+        </TextSubtitle>
+
+        <div class="flex items-center gap-6">
+          <TextH3>
+            Actueel
+          </TextH3>
+
+          <AppDividerVertical />
+
+          <AppLink to="/" label="Bekijk alle nieuws" />
+        </div>
+
+        <div class="mt-8 flex flex-col xl:flex-row gap-6 xl:min-w-[120%]">
+          <NewsCard />
+          <NewsCard />
         </div>
       </div>
     </section>
