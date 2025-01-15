@@ -108,5 +108,26 @@
         />
       </div>
     </section>
+
+    <!-- Kpi's -->
+    <section class="bg-white py-28">
+      <div class="container">
+        <div class="max-w-2xl">
+          <TextSubtitle>
+            In cijfers
+          </TextSubtitle>
+
+          <TextH2 class="mt-2">
+            Praesent commodo cursus magna
+          </TextH2>
+
+          <TextBody class="mt-4">
+            Onze impact integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
+          </TextBody>
+        </div>
+
+        <KpiGrid class="mt-11" />
+      </div>
+    </section>
   </main>
 </template>

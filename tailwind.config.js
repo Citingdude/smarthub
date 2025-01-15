@@ -13,6 +13,7 @@ export default {
       dark: '#070808',
       primary: '#D32318',
       secondary: '#A91D14',
+      tertiary: '#2B2D57',
       gradient: {
         from: '#D32318',
         to: '#F92114',
