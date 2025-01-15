@@ -56,5 +56,57 @@
         </div>
       </div>
     </section>
+
+    <!-- Sectors -->
+    <section class="pt-11 pb-20">
+      <div class="container bg-white pt-16 pb-20 pl-20 pr-16">
+        <TextSubtitle>
+          Sectoren
+        </TextSubtitle>
+
+        <TextH2 class="mt-2">
+          Donec id elit non mi porta
+        </TextH2>
+
+        <TextBody class="mt-4 max-w-4xl">
+          Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </TextBody>
+
+        <div class="grid grid-cols-5 mt-16">
+          <SectorCard
+            icon="food"
+            has-divider
+            label="Food"
+          />
+          <SectorCard
+            icon="health"
+            has-divider
+            label="Health"
+          />
+          <SectorCard
+            icon="creativity"
+            has-divider
+            label="Creativity"
+          />
+          <SectorCard
+            has-divider
+            icon="logistics"
+            label="Logistics"
+          />
+          <SectorCard
+            icon="cleantech"
+            label="Cleantech"
+          />
+        </div>
+
+        <AppButton
+          class="mt-11"
+          to="/"
+          label="Ontdek meer over de sectoren"
+          color="white"
+          border="grey"
+        />
+      </div>
+    </section>
   </main>
 </template>
