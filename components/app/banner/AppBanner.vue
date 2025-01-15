@@ -11,9 +11,9 @@
     </div>
 
     <div>
-      <p>
+      <TextBody>
         Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
-      </p>
+      </TextBody>
 
       <AppButton
         class="mt-4"
