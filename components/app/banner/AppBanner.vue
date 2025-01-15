@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white pt-[77px] pb-[62px] pl-[56px] pr-[36px] flex gap-[91px] shadow-lg shadow-black/5">
+  <div class="bg-white pt-[77px] pb-[62px] pl-[56px] pr-[36px] flex gap-8 sm:gap-[91px] shadow-lg shadow-black/5 flex-col md:flex-row">
     <div class="max-w-[311px]">
       <TextSubtitle>
         Innovatiesteun

@@ -1,7 +1,7 @@
 <template>
   <main class="bg-light">
     <!-- Hero -->
-    <section class="py-[275px] relative overflow-hidden">
+    <section class="py-12 sm:py-24 lg:py-56 xl:py-[275px] relative overflow-hidden">
       <img class="w-full absolute inset-0" src="/images/hero.jpg" alt="">
       <div class="container relative">
         <div class="max-w-[600px] flex flex-col gap-[15px]">
@@ -9,7 +9,7 @@
             Vandaag innoveren voor morgen.
           </TextH1>
 
-          <p class="text-[28px] leading-[30px] text-white">
+          <p class="text-[14px] leading-[15px] sm:text-[28px] sm:leading-[30px] text-white">
             Smart Hub investeert in slimme projecten, verbindt partners en opent deuren in het buitenland.
           </p>
         </div>
@@ -26,7 +26,7 @@
     <!-- Banner -->
     <section class="relative pb-11">
       <div class="container">
-        <AppBanner class=" mt-[-8rem]" />
+        <AppBanner class=" lg:mt-[-8rem]" />
       </div>
     </section>
 
@@ -72,7 +72,7 @@
           Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </TextBody>
 
-        <div class="grid grid-cols-5 mt-16">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-5 mt-16">
           <SectorCard
             icon="food"
             has-divider

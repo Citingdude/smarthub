@@ -2,9 +2,17 @@
 import { useKeenSlider } from 'keen-slider/vue'
 
 const [container] = useKeenSlider({
+  breakpoints: {
+    '(min-width: 1024px)': {
+      slides: {
+        perView: 3,
+        spacing: 20,
+      },
+    },
+  },
   slides: {
-    perView: 3,
-    spacing: 20,
+    perView: 2,
+    spacing: 10,
   },
 })
 </script>
