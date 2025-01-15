@@ -129,5 +129,65 @@
         <KpiGrid class="mt-11" />
       </div>
     </section>
+
+    <!-- Events -->
+    <section class="py-28">
+      <div class="container">
+        <TextSubtitle>
+          Agenda
+        </TextSubtitle>
+
+        <div class="flex items-center gap-6">
+          <TextH3>
+            Binnenkort
+          </TextH3>
+
+          <AppDividerVertical />
+
+          <AppLink to="/" label="Bekijk alle evenementen" />
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 mt-11">
+          <EventCard
+            :image="{
+              src: '/images/event/event_2.jpg',
+              alt: 'Ai',
+            }"
+            title="Design for Innovation - Learn & Match"
+            date="04/03/2023"
+            location="Leuven"
+            :tags="[
+              {
+                color: 'orange',
+                label: 'Laatste tickets',
+              },
+              {
+                color: 'red',
+                label: 'Uitverkocht',
+              },
+              {
+                color: 'grey',
+                label: 'Conference',
+              },
+            ]"
+          />
+          <EventCard
+            :image="{
+              src: '/images/event/event.jpg',
+              alt: 'Ai',
+            }"
+            title="Future generation conference"
+            date="04/03/2023"
+            location="Leuven"
+            :tags="[
+              {
+                color: 'grey',
+                label: 'Conference',
+              },
+            ]"
+          />
+        </div>
+      </div>
+    </section>
   </main>
 </template>
