@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-2 xl:grid-cols-3">
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
     <KpiGridImage
       src="/images/kpi/kpi_image_1.jpg"
       alt="Robot hond"

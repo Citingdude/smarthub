@@ -6,7 +6,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div>
+  <div class="flex">
     <img
       class="aspect-square object-cover w-full h-auto"
       :src="props.src"
