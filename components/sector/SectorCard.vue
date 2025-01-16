@@ -43,11 +43,6 @@ const props = defineProps<{
         alt="Health"
       >
     </div>
-    <!-- <SectorIconFood v-if="props.icon === 'food'" />
-    <SectorIconHealth v-if="props.icon === 'health'" />
-    <SectorIconCreativity v-if="props.icon === 'creativity'" />
-    <SectorIconLogistics v-if="props.icon === 'logistics'" />
-    <SectorIconCleantech v-if="props.icon === 'cleantech'" /> -->
 
     <h3 class="flex items-center gap-2 mt-8">
       <span class="text-lg underline font-bold">
