@@ -12,10 +12,10 @@
       <div class="opacity-0 group-hover/project-slide:opacity-100 absolute z-10 bg-black/60 inset-0 transition" />
     </div>
 
-    <div class="absolute z-10 bottom-0 left-0 pb-12 px-10">
+    <div class="absolute z-10 bottom-0 left-0 p-5 sm:pb-12 sm:px-10">
       <AppTag label="Cleantech" />
 
-      <h3 class="text-[35px] leading-[40px] font-display text-white mt-7">
+      <h3 class="text-[20px] leading-tight sm:text-[35px] sm:leading-[40px] font-display text-white mt-7">
         Lorem ipsum dolor sit amet
       </h3>
 
