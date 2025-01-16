@@ -64,52 +64,54 @@
           <path opacity="0.04" d="M701.432 363.957L689.88 250.575C688.311 236.028 675.19 225.331 660.643 226.758L513.317 242.018C498.77 243.444 491.639 233.746 497.629 220.34L558.242 85.1366C564.232 71.7304 558.242 55.8997 544.836 49.9097L440.724 3.27315C427.318 -2.71685 411.487 3.27315 405.497 16.6794L344.884 151.74C338.894 165.146 327.056 166.43 318.499 154.45L231.644 34.3642C223.087 22.5268 206.258 19.817 194.42 28.5168L102.146 95.2626C90.3084 103.962 87.5987 120.649 96.1558 132.486L183.011 252.572C191.568 264.409 186.719 275.391 172.029 276.96L24.7036 292.077C10.1564 293.503 -0.682663 306.624 0.886149 321.314L12.4383 434.554C14.0071 449.244 27.1281 459.94 41.6753 458.371L189.001 443.254C203.548 441.685 210.536 451.526 204.546 464.789L143.933 599.85C137.943 613.256 143.933 629.086 157.339 634.934L261.309 681.57C274.715 687.56 290.546 681.57 296.536 668.164L357.149 533.104C363.139 519.698 374.976 518.557 383.534 530.394L470.389 650.479C478.946 662.459 495.632 665.027 507.612 656.469L600.03 589.581C611.867 581.024 614.577 564.337 606.02 552.5L519.164 432.415C510.607 420.435 515.456 409.453 530.146 408.027L677.472 392.909C692.162 391.34 702.858 378.219 701.289 363.672" fill="#0E0F0E" />
         </svg>
 
-        <TextSubtitle>
-          Sectoren
-        </TextSubtitle>
+        <div class="relative">
+          <TextSubtitle>
+            Sectoren
+          </TextSubtitle>
 
-        <TextH2 class="mt-2">
-          Donec id elit non mi porta
-        </TextH2>
+          <TextH2 class="mt-2">
+            Donec id elit non mi porta
+          </TextH2>
 
-        <TextBody class="mt-4 max-w-4xl">
-          Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </TextBody>
+          <TextBody class="mt-4 max-w-4xl">
+            Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </TextBody>
 
-        <div class="grid sm:grid-cols-2 lg:grid-cols-5 mt-16">
-          <SectorCard
-            icon="food"
-            has-divider
-            label="Food"
-          />
-          <SectorCard
-            icon="health"
-            has-divider
-            label="Health"
-          />
-          <SectorCard
-            icon="creativity"
-            has-divider
-            label="Creativity"
-          />
-          <SectorCard
-            has-divider
-            icon="logistics"
-            label="Logistics"
-          />
-          <SectorCard
-            icon="cleantech"
-            label="Cleantech"
+          <div class="grid sm:grid-cols-2 lg:grid-cols-5 mt-16">
+            <SectorCard
+              icon="food"
+              has-divider
+              label="Food"
+            />
+            <SectorCard
+              icon="health"
+              has-divider
+              label="Health"
+            />
+            <SectorCard
+              icon="creativity"
+              has-divider
+              label="Creativity"
+            />
+            <SectorCard
+              has-divider
+              icon="logistics"
+              label="Logistics"
+            />
+            <SectorCard
+              icon="cleantech"
+              label="Cleantech"
+            />
+          </div>
+
+          <AppButton
+            class="mt-11"
+            to="/"
+            label="Ontdek meer over de sectoren"
+            color="white"
+            border="grey"
           />
         </div>
-
-        <AppButton
-          class="mt-11"
-          to="/"
-          label="Ontdek meer over de sectoren"
-          color="white"
-          border="grey"
-        />
       </div>
     </section>
 
