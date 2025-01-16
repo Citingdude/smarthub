@@ -14,7 +14,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <NuxtLink to="/" class="flex flex-col sm:flex-row">
+  <NuxtLink to="/" class="flex flex-col sm:flex-row hover:-translate-y-2 transition">
     <img :src="props.image.src" :alt="props.image.alt">
 
     <div class="bg-white pt-8 pl-8 pb-7 pr-7 flex flex-col gap-4 w-full">
