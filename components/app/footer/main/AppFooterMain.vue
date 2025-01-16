@@ -52,45 +52,7 @@
           </div>
         </div>
 
-        <nav class="pt-8">
-          <ul class="flex flex-col gap-6">
-            <li>
-              <NuxtLink class="text-[26px] leading-[28px] font-display text-white" to="/">
-                Projecten
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class="text-[26px] leading-[28px] font-display text-white" to="/">
-                Sectoren
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class="text-[26px] leading-[28px] font-display text-white" to="/">
-                Agenda
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class="text-[20px] leading-[24px] font-display text-white" to="/">
-                Team & contact
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class="text-[20px] leading-[24px] font-display text-white" to="/">
-                Over Smart Hub Vlaams-Brabant
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class="text-[20px] leading-[24px] font-display text-white" to="/">
-                Nieuws
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class="text-[20px] leading-[24px] font-display text-white" to="/">
-                Over de kennisregio Vlaams-Brabant
-              </NuxtLink>
-            </li>
-          </ul>
-        </nav>
+        <AppFooterMainNav />
 
         <form class="bg-white p-10" action="">
           <h3 class="text-[30px] leading-[36px] font-display max-w-56">
