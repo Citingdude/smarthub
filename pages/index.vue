@@ -51,9 +51,9 @@
             label="Alle projecten"
             class="mt-4"
           />
-
-          <ProjectSlider class="w-full mt-10" />
         </div>
+
+        <ProjectSlider class="w-full mt-10" />
       </div>
     </section>
 
