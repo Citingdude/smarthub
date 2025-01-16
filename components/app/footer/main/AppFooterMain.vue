@@ -22,16 +22,22 @@
             </h3>
 
             <div class="mt-4 flex flex-col gap-1">
-              <a href="mailto:info@smarthubvlaamsbrabant.be" class="flex items-center gap-2">
+              <a
+                href="mailto:info@smarthubvlaamsbrabant.be"
+                class="flex items-center gap-2 underline text-white hover:no-underline"
+              >
                 <IconMail />
-                <p class="text-white font-display text-[18px] leading-[24px] underline">
+                <p class="font-display text-[18px] leading-[24px]">
                   info@smarthubvlaamsbrabant.be
                 </p>
               </a>
 
-              <a href="tel:+32 (0)16 12 30 00" class="flex items-center gap-2">
+              <a
+                href="tel:+32 (0)16 12 30 00"
+                class="flex items-center gap-2 text-white underline hover:no-underline"
+              >
                 <IconPhone />
-                <p class="text-white font-display text-[18px] leading-[24px] underline">
+                <p class="font-display text-[18px] leading-[24px]">
                   +32 (0)16 12 30 00
                 </p>
               </a>
